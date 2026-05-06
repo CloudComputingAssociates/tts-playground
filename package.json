@@ -1,0 +1,14 @@
+{
+  "name": "tts-playground",
+  "version": "1.0.0",
+  "description": "Google Cloud TTS playground with SSML support",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.5.0",
+    "express": "^4.21.0"
+  }
+}
